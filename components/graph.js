@@ -7,9 +7,9 @@ import {
 
 const Graph = ({ w }) => (
   <div className='flex flex-col h-full'>
-    <div className='flex justify-between border-b border-neutral-700 p-3'>
+    <div className='flex justify-between border-b border-neutral-700 p-2'>
       <div className='flex gap-1'>
-        <p className='text-white text-xl m-2 border-r pr-3 border-neutral-700'>
+        <p className='text-white text-lg m-2 border-r pr-3 border-neutral-700'>
           Sentiment Tracking
         </p>
         <PresentationChartLineIcon className='h-6 my-auto text-red-700' />

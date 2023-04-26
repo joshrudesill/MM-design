@@ -29,12 +29,19 @@ const TopTodayItem = () => {
   }, []);
   return (
     <div className='flex flex-row justify-between px-3 py-1 hover:bg-green-600/50'>
-      <div>1</div>
-      <p className='text-neutral-200 p-1 border border-neutral-700 rounded-md'>
+      <p
+        className={`${
+          pos % 4 === 0
+            ? "text-lg text-neutral-200 p-1 border border-neutral-700 rounded-md"
+            : pos % 2 === 0
+            ? "text-lg text-neutral-200 p-1 border border-red-700 rounded-md"
+            : "text-lg text-neutral-200 p-1 border border-green-700 rounded-md"
+        }`}
+      >
         {symbol}
       </p>
 
-      <div className='flex flex-row'>
+      <div className='flex flex-row my-auto'>
         <p
           className={`${
             dir[1] ? "text-green-300/70 p-1" : "text-red-300/70 p-1"

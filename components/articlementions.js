@@ -42,7 +42,7 @@ const Article = ({ w }) => {
           <p className='text-white text-md font-light'>72</p>
         </div>
         <div className='flex flex-row justify-between p-2 border-b border-neutral-600 text-sm hover:bg-green-600'>
-          <span className='text-white bg-teal-600 px-2 py-1 rounded-md'>2</span>
+          <span className='text-white px-2 py-1 rounded-md'>2</span>
 
           <p className='text-white text-md'>AAPL</p>
           <p className='text-white text-md font-light'>122</p>

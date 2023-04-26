@@ -7,7 +7,7 @@ import {
 
 const Other = ({ w }) => (
   <div className='flex flex-col h-full gap-3'>
-    <div className='flex text-center bg-neutral-800 basis-1/2 flex-col rounded-md place-items-center justify-center hover:shadow-green-400/80 shadow-sm'>
+    <div className='flex text-center bg-neutral-800/50 border border-neutral-700 basis-1/2 flex-col rounded-md place-items-center justify-center hover:shadow-green-400/80 shadow-sm'>
       <p className='flex text-white text-lg font-light mb-1'>
         See what else were working on
       </p>
@@ -17,7 +17,7 @@ const Other = ({ w }) => (
         </button>
       </div>
     </div>
-    <div className='flex flex-col bg-neutral-800 rounded-md basis-1/2 hover:shadow-green-400/80 shadow-sm'>
+    <div className='flex flex-col bg-neutral-800/50 border border-neutral-700 rounded-md basis-1/2 hover:shadow-green-400/80 shadow-sm'>
       <div className='flex justify-between border-b border-neutral-700 p-1'>
         <div className='flex gap-1'>
           <p className='text-white text-md m-2 border-r pr-3 border-neutral-700'>

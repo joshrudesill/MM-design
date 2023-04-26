@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 html {
-  background: rgb(25, 25, 25);
+  background: rgb(11, 11, 11);
   overflow-x: hidden;
 }
 ::-webkit-scrollbar-track {
